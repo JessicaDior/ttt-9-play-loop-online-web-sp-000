@@ -35,6 +35,8 @@ def turn(board)
   end
 end
 
+  index = input_to_index(input)
+
 def full?(board)
   if board (index == nil)
     return false
