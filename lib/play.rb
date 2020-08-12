@@ -38,7 +38,7 @@ end
 
 # Define your play method below
 def play(board)
-  until full?(board)
+  until valid_move? == false
     turn(board)
   end
 end
