@@ -35,6 +35,7 @@ def turn(board)
   end
 end
 
+input = gets.strip
   index = input_to_index(input)
 
 def full?(board)
