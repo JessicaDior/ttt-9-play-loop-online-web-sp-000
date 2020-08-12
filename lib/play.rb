@@ -35,10 +35,17 @@ def turn(board)
   end
 end
 
+def full?(board)
+  if board (index == nil)
+    return false
+  else 
+    return true
+  end 
+end
 
 # Define your play method below
 def play(board)
-  until
+  until full?(board)
     turn(board)
   end
 end
