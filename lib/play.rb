@@ -35,9 +35,10 @@ def turn(board)
   end
 end
 
+
 # Define your play method below
 def play(board)
-  until over?(board)
+  until index == nil
     turn(board)
   end
 end
