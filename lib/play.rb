@@ -38,7 +38,7 @@ end
 
 # Define your play method below
 def play(board)
-  until valid_move?(board, index) == false
+  until turn == false
     turn(board)
   end
 end
