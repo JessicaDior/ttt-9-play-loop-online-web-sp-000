@@ -35,16 +35,6 @@ def turn(board)
   end
 end
 
-input = gets.strip
-  index = input_to_index(input)
-
-def full?(board)
-  if board (index == nil)
-    return false
-  else
-    return true
-  end
-end
 
 # Define your play method below
 def play(board)
