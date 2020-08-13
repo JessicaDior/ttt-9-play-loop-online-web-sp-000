@@ -39,8 +39,8 @@ end
 # Define your play method below
 def play(board)
   turn(board)
-  until turn(board) == nil
+  until turn(board) == ["X","X","X","X","X","X","X"
+,"X","X",]
     turn(board)
-    turn(board) + 9
    end
 end
