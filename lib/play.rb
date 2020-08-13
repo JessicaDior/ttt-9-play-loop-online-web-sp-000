@@ -39,6 +39,8 @@ end
 # Define your play method below
 def play(board)
   turn(board)
+  input = gets.strip
+  index = input_to_index(input)
   until move(board, index, current_player = "X") == nil
     turn(board)
   end
