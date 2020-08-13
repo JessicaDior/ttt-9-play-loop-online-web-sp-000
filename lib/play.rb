@@ -41,6 +41,6 @@ def play(board)
   turn(board)
   until turn(board) == nil
     turn(board)
-    turn(board) += 1
+    turn(board) + 1
   end
 end
