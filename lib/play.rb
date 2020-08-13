@@ -38,6 +38,7 @@ end
 
 # Define your play method below
 def play(board)
+  index = input_to_index(user_input)
   until valid_move?(board, index) == nil
      turn(board)
   end
