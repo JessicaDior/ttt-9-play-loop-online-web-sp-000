@@ -38,8 +38,10 @@ end
 
 # Define your play method below
 def play(board)
-turn(board) = 9
-  until turn(board) == nil
-     turn(board)
+  turn(board)
+  until move == nil
+    turn(board)
   end
 end
+    
+  
