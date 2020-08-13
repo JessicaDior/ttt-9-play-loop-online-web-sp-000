@@ -39,7 +39,7 @@ end
 # Define your play method below
 def play(board)
   turn(board)
-  until move == nil
+  until move(board, index, current_player = "X") == nil
     turn(board)
   end
 end
